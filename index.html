@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>My Website</title>
+</head>
+
+<body>
+  <!-- Header -->
+  <section id="header">
+    <div class="header container">
+      <div class="nav-bar">
+        <div class="brand">
+          <a href="#hero">
+            <h1><span>S</span>usmitha<span> G</span>embali</h1>
+          </a>
+        </div>
+        <div class="nav-list">
+          <div class="hamburger">
+            <div class="bar"></div>
+          </div>
+          <ul>
+            <li><a href="#hero" data-after="Home">Home</a></li>
+            <!--<li><a href="#services" data-after="Service">Services</a></li>-->
+            <li><a href="#projects" data-after="Projects">Projects</a></li>
+            <li><a href="#about" data-after="About">About</a></li>
+            <li><a href="#contact" data-after="Contact">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Header -->
+
+
+  <!-- Hero Section  -->
+  <section id="hero">
+    <div class="hero container">
+      <div>
+        <h1>Hello, <span></span></h1>
+        <h1>I am Susmitha Gembali<span></span></h1>
+        <!--<h1>Susmitha <span></span></h1>-->
+        <a href="#projects" type="button" class="cta">Portfolio</a>
+      </div>
+      <!--<div class="hero-img">
+        <img src="./img/Susmithag.png" alt="Susmitha">
+      </div>-->
+    </div>
+  </section>
+  <!-- End Hero Section  -->
+
+  
+   <!--experience section-->
+   <section id="Experience">
+
+   </section>
+
+  <!-- Projects Section -->
+  <section id="projects">
+    <div class="projects container">
+      <div class="projects-header">
+        <h1 class="section-title">Recent <span>Projects</span></h1>
+      </div>
+      <div class="all-projects">
+        <div class="project-item">
+          <div class="project-info">
+            <h1>Project 1</h1>
+            <h2>Automatic English Handwritten Text Recognition System</h2>
+            <p>Transform handwritten notes into digital text seamlessly using advanced CNN and LSTM models.</p>
+          </div>
+          <div class="project-img">
+            <img src="./img/htr.png" alt="img">
+          </div>
+        </div>
+        <div class="project-item">
+          <div class="project-info">
+            <h1>Project 2</h1>
+            <h2>Analysis and Classification of Cancer Patients based on DNA sequences</h2>
+            <p>Predict cancer types by analyzing DNA sequences with powerful machine learning algorithms.</p>
+          </div>
+          <div class="project-img">
+            <img src="./img/dna.png" alt="img">
+          </div>
+        </div>
+        <div class="project-item">
+          <div class="project-info">
+            <h1>Project 3</h1>
+            <h2>QR Scanner</h2>
+            <p>Generate and scan QR codes effortlessly for everyday essentials like groceries and medicines.</p>
+          </div>
+          <div class="project-img">
+            <img src="./img/download.png" alt="img">
+          </div>
+        </div>
+   
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--<section>
+            <div class="project-img">
+            <img src="./img/htr.png" alt="Automatic English Handwritten Text Recognition System" />
+          </div>
+          <div class="project-info">
+            <h2>Automatic English Handwritten Text Recognition System</h2>
+            <p>Transform handwritten notes into digital text seamlessly using advanced CNN and LSTM models.</p>
+          </div>
+        </div>
+        <div class="project-item" tabindex="0" aria-label="Project: Analysis and Classification of Cancer Patients based on DNA sequences">
+          <div class="project-img">
+            <img src="./img/dna.png" alt="Analysis and Classification of Cancer Patients based on DNA sequences" />
+          </div>
+          <div class="project-info">
+            <h2>Analysis and Classification of Cancer Patients based on DNA sequences</h2>
+            <p>Predict cancer types by analyzing DNA sequences with powerful machine learning algorithms.</p>
+          </div>
+        </div>
+        <div class="project-item" tabindex="0" aria-label="Project: QR Scanner">
+          <div class="project-img">
+            <img src="./img/download.png" alt="QR Scanner" />
+          </div>
+          <div class="project-info">
+            <h2>QR Scanner</h2>
+            <p>Generate and scan QR codes effortlessly for everyday essentials like groceries and medicines.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>-->
+  <!-- End Projects Section -->
+  <!-- Media Section -->
+   <section id="gallery">
+
+
+
+   </section>
+  <!-- About Section -->
+  <section id="about">
+    <div class="about container">
+      <div class="col-left">
+        <div class="about-img">
+          <img src="./img/Susmithag.png" alt="img">
+        </div>
+      </div>
+      <div class="col-right">
+        <h1 class="section-title">About <span>me</span></h1>
+        <p style="font-size:18px"> Hi! I’m Susmitha Gembali, a tech enthusiast with a strong interest in programming, data analysis, and Web development. I enjoy exploring new technologies, solving complex problems, and building applications that make an impact.</b></p>
+        <div class="tab-titles">
+          <p class="tab-links active-link" onclick="opentab(event,'skills')">Skills</p>
+          <p class="tab-links" onclick="opentab(event,'experience')">Experience</p>
+          <p class="tab-links" onclick="opentab(event,'education')">Education</p>
+          <p class="tab-links" onclick="opentab(event,'certification')">Certifications</p>
+      </div>
+      <div class="tab-contents  active-tab" id="skills">
+          <ul>
+              <li><span>Python</span></li>
+              <li><span>Java  </span></li>
+              <li><span>SQL</span></li>
+              <li><span>HTML</span></li>
+              <li><span>CSS </span></li>
+              <li><span> Javascript </span></li>
+              <li><span> Machine Learning</span></li>
+              <li><span> Deep Learning</span></li>
+              <li><span>Gen AI</span></li>
+              <li><span> Git</span></li>
+          </ul>
+      </div>
+      <div class="tab-contents " id="experience">
+          <ul>
+              <li><span><b>Data Analyst</b>(via Forage),Accenture          March 2024 - Apr 2024</span> </li>
+              <ul style="font-size:16px">
+               <li>Utilized Excel to clean and organize data, ensuring accuracy and reliability.</li>
+               <li>Identified trends and provided actionable insights to enhance decision-making.</li>
+               <li>Created presentations to effectively communicate findings to the team.</li>
+               <li>Suggested strategic actions based on data analysis to support business objectives.</li>
+               </ul>
+
+
+</li>
+<br>
+              <li><span><b>Artificial Intelligence Intern</b>,Vihaan Electrix          Nov 2023 - Feb 2024</span> </li>
+              <ul style="font-size:16px">
+               <li>Researched and analyzed cutting-edge AI tools and technologies.
+               <li>Developed and delivered engaging presentations on key topics in Artificial Intelligence (AI), Machine Learning (ML), and Deep Learning (DL) using PowerPoint and Canva.
+</li>
+               <li>Collaborated with team members to explore innovative applications of AI across various industries.</li>
+               
+               </ul>
+          </ul>
+      </div>
+      <div class="tab-contents " id="education">
+          <ul>
+            <li><span>(2020-2024) B.Tech - GMR Institute of Technology  <b>Cgpa-8.94</b></span></li>
+            <li><span>(2018-2020) Intermediate - Sri Chaitanya Junior College  <b>Cgpa-9.65</b></span></li>
+            <li><span>(2017-2018) SSC - Vivekananda High School  <b>Cgpa-10.0</b></span></li>
+          </ul>
+      </div>
+      <div class="tab-contents" id="certification">
+        <!--<ul>
+          <li><span>AI/ML for Geodata Analysis</span></li>
+          <li><span>Oracle Cloud Infrastructure 2024 Generative AI Certified Professional</span></li>
+          <li><span>Google Finance Data Analyst Professional</span></li>
+          <li><span>Machine Learning Classification Course </span></li>
+          <li><span>AWS Academy Graduate - AWS Academy Cloud Foundations</span></li>
+          <li><span>Python for Data Science</span></li>
+          <li><span>Java Full Stack</span></li>
+        </ul>-->
+        <ul>
+          <li><a href="C:\Users\susmi\Desktop\web\certifications\ISROCertificate.pdf" target="_blank" class="cert-link">AI/ML for Geodata Analysis</a></li>
+          <li><a href="certifications/OracleCertificate.pdf" target="_blank" class="cert-link">Oracle Cloud Infrastructure 2024 Generative AI Certified Professional</a></li>
+          <li><a href="certifications/Coursera Google data analytics.pdf" target="_blank" class="cert-link">Google Finance Data Analyst Professional</a></li>
+          <li><a href="certifications/ML certificate.pdf" target="_blank" class="cert-link">Machine Learning Classification Course</a></li>
+          <li><a href="certifications/AWS_Academy_Cloud_Foundations_Badge.pdf" target="_blank" class="cert-link">AWS Academy Graduate - AWS Academy Cloud Foundations</a></li>
+          <li><a href="certifications/Python_for_Data_Science_Badge20240119-29-p98dit.pdf" target="_blank" class="cert-link">Python for Data Science</a></li>
+          <li><a href="certifications/Wipro  Java Full Stack Certification.pdf" target="_blank" class="cert-link">Java Full Stack</a></li>
+        </ul>
+      </div>
+
+        <a href="gembali-susmitha-resume.pdf" class="cta" >Download Resume</a>
+      </div>
+    </div>
+  </section>
+  <!-- End About Section -->
+
+  <!-- Contact Section -->
+  <section id="contact">
+    <div class="contact container">
+      <div>
+        <h1 class="section-title">Contact <span>info</span></h1>
+      </div>
+      <div class="contact-items">
+        <div class="contact-item">
+          <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/phone.png" /></div>
+          <div class="contact-info">
+            <h1>Phone</h1>
+            <h2>+91 8074902985</h2>
+          </div>
+        </div>
+        <div class="contact-item">
+          <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/new-post.png" /></div>
+          <div class="contact-info">
+            <h1>Email</h1>
+            <h2>susmithagembali4@gmail.com</h2>
+          </div>
+        </div>
+        <div class="contact-item">
+          <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/map-marker.png" /></div>
+          <div class="contact-info">
+            <h1>Address</h1>
+            <h2>Palakonda,Manyam District,Andhra Pradesh</h2>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Contact Section -->
+
+ 
+  </section>
+  <!-- End Footer -->
+  <script src="./app.js"></script>
+</body>
+
+</html>
