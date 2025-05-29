@@ -666,9 +666,7 @@ transform: translateY(-10px);
 	}
 	/* End contact  */
 }
-/* End Media Query For Tablet */
 
-/* Media Query For Desktop */
 @media only screen and (min-width: 1200px) {
 	/* header */
 	#header .hamburger {
@@ -696,5 +694,27 @@ transform: translateY(-10px);
 		flex-basis: 22%;
 		margin: 1.5%;
 	}
+	
 }
-/* End  Media Query For Desktop */
+@media (max-width: 768px) {
+  .nav-list ul {
+    flex-direction: column;
+  }
+
+  .col-left,
+  .col-right {
+    width: 100%;
+    text-align: center;
+  }
+
+  .project-item {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .project-img img {
+    width: 90%;
+    margin: auto;
+  }
+}
+
